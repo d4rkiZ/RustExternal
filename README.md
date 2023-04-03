@@ -1,5 +1,5 @@
 ## RustScan Automation Script ##
-This script automates the process of reconnaissance on a specified domain using four different tools: subfinder, assetfinder, nuclei vulnerability scanner, xray vulnerability crawler and scanner. After gathering subdomains, it creates a unique list of subdomains and uses RustScan to scan open ports on those subdomains.
+The purpose of this script is to streamline the reconnaissance process for a specified domain using various tools. Firstly, it collects subdomains and generates a list of unique subdomains. Next, it utilizes RustScan to scan open ports on those subdomains. After that, it organizes the list of subdomains based on their port status and feeds it to the nuclei and xray vulnerability scanners. Finally, the script produces an HTML output file summarizing the findings.
 
 ## Requirements ##
 This script is written in bash and requires a bash shell environment to run.
