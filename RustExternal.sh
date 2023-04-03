@@ -103,7 +103,8 @@ echo ${GREEN} '[!] Starting xray Vulnerability Scanner [!]' ${LG}
 xray upgrade
 sleep 1
 
-for i in $(cat $HOME/RustExternalScans/$1/Web.txt); do xray ws --basic-crawler $i --plugins xss,sqldet,xxe,ssrf,cmd-injection,path-traversal --html-output $HOME/RustExternalScans/$1/xray/RustExternalScans/$1.html ; done 
+for i in $(cat $HOME/RustExternalScans/$1/Web.txt); do xray ws --basic-crawler $i --plugins xss,sqldet,xxe,ssrf,cmd-injection,path-traversal --ho $1.html ; done 
+mv $1.html $HOME/RustExternalScans/$1/xray/$1.html
 
 echo ${SED_LIGHT_MAGENTA} '[!] Xray Scanning DONE[!]' ${LG}
 echo ${SED_DG} ---------------- Next -----------------${LG}
