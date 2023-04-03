@@ -24,6 +24,7 @@ This script requires the following tools to be installed on the system:
 * Katana 
 * anew 
 * httpx 
+* docker
 
 ## Usage ##
 * Clone the repository or download the code.
