@@ -14,7 +14,7 @@ This script is written in bash and requires a bash shell environment to run.
 
 This script requires the following tools to be installed on the system:
 
-* subfinder [It is highly recommended to provide API keys for the different sources, as it can significantly improve the results and avoid rate limiting issues. Many of the supported sources offer free API keys that can be easily obtained and used with Subfinder.]
+* subfinder [It is highly recommended to provide API keys for the different sources, as it can significantly improve the results. Many of the supported sources offer free API keys that can be easily obtained and used with Subfinder.]
 
 * assetfinder
 * nuclei 
