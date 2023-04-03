@@ -9,7 +9,8 @@ The purpose of this script is to streamline the reconnaissance process for a spe
 
 ## Requirements ##
 This script is written in bash and requires a bash shell environment to run.
-You can use ./requirements.sh to install the dependencies .
+
+**You can use ./requirements.sh to install the dependencies.**
 
 This script requires the following tools to be installed on the system:
 
