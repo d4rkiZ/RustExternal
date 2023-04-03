@@ -54,5 +54,6 @@ This script creates a directory at ~/RustExternalScans and then creates a subdir
  
 
 
-Disclaimer
+*Disclaimer*
+
 This script is provided for educational purposes only. Misuse of this script to gain unauthorized access to computer systems is strictly prohibited. The author assumes no liability for any damages caused by the use or misuse of this script.
