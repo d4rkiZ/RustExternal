@@ -53,7 +53,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 sleep 0.5
 
 
-echo '[@] installing "httpx" to go/bin [@]'
+echo '[@] installing "assetfinder" to go/bin [@]'
 go install -v github.com/tomnomnom/assetfinder@latest
 sleep 0.5
 
