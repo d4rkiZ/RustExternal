@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/97190263/229495028-3b766fd4-d825-456d-a721-bb89ff6fce45.png)
+
+
 ## RustScan Automation Script ##
 The purpose of this script is to streamline the reconnaissance process for a specified domain using various tools. Firstly, it collects subdomains and generates a list of unique subdomains. Next, it utilizes RustScan to scan open ports on those subdomains. After that, it organizes the list of subdomains based on their port status and feeds it to the nuclei and xray vulnerability scanners. Finally, the script produces an HTML output file summarizing the findings.
 
@@ -7,7 +10,8 @@ You can use ./requirements.sh to install the dependencies .
 
 This script requires the following tools to be installed on the system:
 
-subfinder
+subfinder [It is highly recommended to provide API keys for the different sources, as it can significantly improve the results and avoid rate limiting issues. Many of the supported sources offer free API keys that can be easily obtained and used with Subfinder.]
+
 assetfinder
 nuclei 
 xray 
