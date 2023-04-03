@@ -10,16 +10,16 @@ You can use ./requirements.sh to install the dependencies .
 
 This script requires the following tools to be installed on the system:
 
-subfinder [It is highly recommended to provide API keys for the different sources, as it can significantly improve the results and avoid rate limiting issues. Many of the supported sources offer free API keys that can be easily obtained and used with Subfinder.]
+* subfinder [It is highly recommended to provide API keys for the different sources, as it can significantly improve the results and avoid rate limiting issues. Many of the supported sources offer free API keys that can be easily obtained and used with Subfinder.]
 
-assetfinder
-nuclei 
-xray 
-RustScan
-amass
-Katana 
-anew 
-httpx 
+* assetfinder
+* nuclei 
+* xray 
+* RustScan
+* amass
+* Katana 
+* anew 
+* httpx 
 
 ## Usage ##
 * Clone the repository or download the code.
