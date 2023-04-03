@@ -69,7 +69,9 @@ echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 cp config.yaml ~/go/bin/config.yaml
-cp RustExternal.sh ~/go/bin/RustExternal.sh
+cp plugin.xray.yaml ~/go/bin/plugin.xray.yaml
+cp module.xray.yaml ~/go/bin/module.xray.yaml
+cp xray.yaml ~/go/bin/xray.yaml
 sleep 3
 chmod 777 ~/go/bin/RustExternal.sh
 echo '[@] DONE! a nano popup will openup in 8 seconds to provider-config.yaml,dont forget to edit your subfinder api_keys[@]'
