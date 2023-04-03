@@ -2,7 +2,8 @@
 ![image](https://user-images.githubusercontent.com/97190263/229516243-c222f25f-e46a-44f6-befe-d180c55ed9b0.png)
 
 
-*If you only need to scan a single domain and want to skip the subdomain enumeration steps using tools like Subfinder or Assetfinder, you can use the SingleDomainBoom.sh script*
+**If you only need to scan a single domain and want to skip the subdomain enumeration steps using tools like Subfinder or Assetfinder, you can use the SingleDomainBoom.sh script**
+
 ## RustScan Automation Script ##
 The purpose of this script is to streamline the reconnaissance process for a specified domain using various tools. Firstly, it collects subdomains and generates a list of unique subdomains. Next, it utilizes RustScan to scan open ports on those subdomains. After that, it organizes the list of subdomains based on their port status and feeds it to the nuclei and xray vulnerability scanners. Finally, the script produces an HTML output file summarizing the findings.
 
