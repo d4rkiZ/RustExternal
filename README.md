@@ -29,7 +29,7 @@ This script requires the following tools to be installed on the system:
 ## Usage ##
 * Clone the repository or download the code.
 * Navigate to the directory that contains the RustExternal.sh script.
-* Make the script executable by running chmod +x v.sh.
+* Make the script executable by running chmod +x RustExternal.sh.
 * Run the script with the following command:
 * ./RustExternal.sh <domain> <HeaderTag> <Headers>
 * domain: The domain to scan.
