@@ -12,7 +12,7 @@ The purpose of this script is to streamline the reconnaissance process for a spe
 ## Requirements ##
 This script is written in bash and requires a bash shell environment to run.
 
-** YOU MUST Run  ./requirements.sh with sudo to install the dependencies and orginize the config files.**
+* YOU MUST Run  ./requirements.sh with sudo to install the dependencies and orginize the config files. *
 
 This script requires the following tools to be installed on the system:
 
