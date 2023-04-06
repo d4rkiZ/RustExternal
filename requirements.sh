@@ -68,6 +68,7 @@ echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
+cp RustExternal.sh ~/go/bin/RustExternal.sh
 cp config.yaml ~/go/bin/config.yaml
 cp plugin.xray.yaml ~/go/bin/plugin.xray.yaml
 cp module.xray.yaml ~/go/bin/module.xray.yaml
@@ -80,7 +81,6 @@ echo '[@] nano $HOME/.config/subfinder/provider-config.yaml[@]'
 sleep 2
 nano $HOME/.config/subfinder/provider-config.yaml
 echo '[@] DONE, happy hacking[@]'
-
 
 
 
