@@ -68,7 +68,9 @@ echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
+chmod 777 *
 cp RustExternal.sh ~/go/bin/RustExternal.sh
+cp SingleDomainBoom.sh ~/go/bin/SingleDomainBoom.sh
 cp config.yaml ~/go/bin/config.yaml
 cp plugin.xray.yaml ~/go/bin/plugin.xray.yaml
 cp module.xray.yaml ~/go/bin/module.xray.yaml
