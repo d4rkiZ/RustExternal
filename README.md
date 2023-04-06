@@ -1,4 +1,4 @@
-<b> For first time usage please run requirements file </b>
+<b> Before using it for the first time, please execute the requirements file. </b>
 
 ![image](https://user-images.githubusercontent.com/97190263/229495028-3b766fd4-d825-456d-a721-bb89ff6fce45.png)
 ![image](https://user-images.githubusercontent.com/97190263/229516243-c222f25f-e46a-44f6-befe-d180c55ed9b0.png)
