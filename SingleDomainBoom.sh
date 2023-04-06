@@ -73,8 +73,9 @@ echo ${SED_DG} ---------------- Charging Up Vulnerability Scanners -------------
 echo ${DG} '[!] Modifying Xray config to support new domain [!]' ${LG} 
 
 cutdomain=$(echo $domain | rev | cut -d"." -f2- | rev)
-
 sed -E "s/.*#changeme$/    - '*$cutdomain*'                              #changeme/" -i ~/go/bin/config.yaml
+sed -E "s/.*#AddHeader$/    $Headers                               #AddHeader/" -i ~/go/bin/config.yaml
+
 
 echo ${GREEN} '[!] Modifying Completed[!]' ${LG} 
 
@@ -98,4 +99,3 @@ nuclei -severity low,medium,high,critical -l $HOME/SingleUrlScan/$1/subs.txt -si
 
 echo ${ITALIC} '[!] Scanning done, Happy HACKING![!]' ${LG}
 echo ${SED_DG} ---------------- DONE! -----------------${LG} 
-
