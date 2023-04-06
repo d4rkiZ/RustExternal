@@ -29,8 +29,7 @@ http:
   - PROPFIND
   headers:
     User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
-    #Authentication: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjM1NDgsInNlc3Npb25Jbml0SWQiOiJjOGY3ZjYwZC1mZTc1LTRlZDctOTAyNy1kMmQxZDkzOThmNTUiLCJ1c2VySWQiOiI1NmQ1NTYzZC0wY2ExLTRjYjMtOWE1NC1kYzU3ZTRiNjg3ZmYiLCJ0eXBlIjoiQURNSU4iLCJvcmciOnsib3JnSWQiOjIwMH0sImlhdCI6MTY3MzI1OTY3MiwiZXhwIjoxNjczMzQ2MDcyfQ.g95YZItubuFrPJOWhIX87oonRyhDD6fQvbdbs1MERkQ
-    #Cookie: aid=aid_fefefefeVNfWF5BGFUhN5e9yWgEJrgMN
+    Authorezation: YoniHaziza                               #AddHeader
 
 # 漏洞探测的插件配置
 # 更多解释见 https://docs.xray.cool/#/configration/plugins
@@ -145,7 +144,7 @@ mitm:
   allow_ip_range: []                    # 允许的 ip，可以是 ip 或者 cidr 字符串
   restriction:                          
     hostname_allowed: 
-    - '**'                              #changeme
+    - '*xss-quiz.int21h*'                              #changeme
     hostname_disallowed:                # 不允许访问的 Hostname，支持格式如 t.com、*.t.com、1.1.1.1、1.1.1.1/24、1.1-4.1.1-8
     - '*google*'
     - '*github*'
@@ -177,7 +176,7 @@ basic-crawler:
   allow_visit_parent_path: false        # 是否允许爬取父目录, 如果扫描目标为 t.com/a/且该项为 false, 那么就不会爬取 t.com/ 这级的内容
   restriction:                          # 爬虫的允许爬取的资源限制, 为空表示不限制。爬虫会自动添加扫描目标到 Hostname_allowed。
     hostname_allowed: 
-    - '**'                              #changeme
+    - '*xss-quiz.int21h*'                              #changeme
     hostname_disallowed:                # 不允许访问的 Hostname，支持格式如 t.com、*.t.com、1.1.1.1、1.1.1.1/24、1.1-4.1.1-8
     - '*google*'
     - '*github*'
