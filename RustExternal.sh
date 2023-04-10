@@ -101,7 +101,6 @@ sed -E "s/.*#AddHeader$/    $Headers                              #AddHeader/" -
 echo ${GREEN} '[!] Modifying Completed[!]' ${LG} 
 
 echo ${GREEN} '[!] Starting xray Vulnerability Scanner [!]' ${LG} 
-xray upgrade
 sleep 1
 
 for i in $(cat $HOME/RustExternalScans/$1/Web.txt); do xray ws --basic-crawler $i --plugins xss,sqldet,xxe,ssrf,cmd-injection,path-traversal --ho $1.html ; done 
@@ -113,7 +112,6 @@ echo ${SED_DG} ---------------- Next -----------------${LG}
 
 ## test for nuclei 
 echo $SED_RED_YELLOW '[!] running nuclei scanner [!]' ${LG} 
-nuclei -update
 sleep 2
 
 nuclei -severity low,medium,high,critical -l $HOME/RustExternalScans/$1/subs.txt -silent -fr $2 $3 | anew $HOME/RustExternalScans/$1/nuclei.txt
