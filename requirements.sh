@@ -56,6 +56,7 @@ sleep 0.5
 echo '[@] installing "nuclei" to go/bin [@]'
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 sleep 0.5
+nuclei -update
 
 echo '[@] installing "httpx" to go/bin [@]'
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -78,6 +79,7 @@ echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 echo '[@] Make sure "config.yaml & RustExternal.sh" have been copied to ~/go/bin. if not, copy them from the unzip orginal folder'
 sleep 3
+xray upgrade
 chmod 777 ~/go/bin/RustExternal.sh
 echo '[@] DONE! a nano popup will openup in 8 seconds to provider-config.yaml,dont forget to edit your subfinder api_keys[@]'
 sleep 7
@@ -85,7 +87,6 @@ echo '[@] nano $HOME/.config/subfinder/provider-config.yaml[@]'
 sleep 2
 nano $HOME/.config/subfinder/provider-config.yaml
 echo '[@] DONE, happy hacking[@]'
-
 
 
 
