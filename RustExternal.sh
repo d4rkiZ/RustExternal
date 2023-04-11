@@ -83,7 +83,6 @@ sleep 1
 
 echo ${YELLOW} '[!] Deleting unnecessary stuff[!]' ${LG}
 httpx -list $HOME/RustExternalScans/$1/Web.txt -silent -ec | anew $HOME/RustExternalScans/$1/Web.txt
-awk -F'[/=?]' '{print $1"//"$3$4}' $HOME/RustExternalScans/$1/Web.txt | sort -u | awk '{print $0".jpg"; print $0".jpeg"; print $0".png"; print $0".gif"; print $0".bmp"}' > $HOME/RustExternalScans/$1/Web.txt
 
 cat $HOME/RustExternalScans/$1/Web.txt | anew $HOME/RustExternalScans/$1/subs.txt
 
