@@ -36,7 +36,8 @@ echo ${BLUE} '[!] Creating a folder at ~ [!]' ${LG}
 mkdir ~/SingleUrlScan
 mkdir $HOME/SingleUrlScan/$1
 mkdir $HOME/SingleUrlScan/$1/xray
-echo "$1" > $HOME/SingleUrlScan/$1/subs.txt
+touch $HOME/SingleUrlScan/$1/subs.txt
+echo "$1" >> $HOME/SingleUrlScan/$1/subs.txt
 echo ${GREEN} '[!] Created Folder Successfully[!]' ${LG}
 echo ${SED_DG} ---------------- Next -----------------${LG}
 
